@@ -1,0 +1,5 @@
+group,file,sample_rate_hz,duration_s,rms,peak,clipping_percent,band_energy_20_28khz_dbfs,noise_floor_dbfs,event_threshold_dbfs,candidate_events,events_per_minute
+kosong,C:\Users\alvin\Documents\Coolyeah\Project_sawit 2\alat\testing\kosong\Kosong.wav,62500,240.000000,0.004812176,0.999969482,0.000033,-63.363798,-63.334042,-61.201168,2,0.500208
+kosong,C:\Users\alvin\Documents\Coolyeah\Project_sawit 2\alat\testing\kosong\kosong_02.wav,62500,71.647232,0.011176542,0.999969482,0.000112,-47.679895,-47.737545,-45.725994,0,0.000000
+sawit_sehat,C:\Users\alvin\Documents\Coolyeah\Project_sawit 2\alat\testing\sawit_sehat\sawit.wav,62500,240.000000,0.004769133,0.999969482,0.000033,-60.432509,-60.430317,-58.430317,2,0.500208
+sawit_sehat,C:\Users\alvin\Documents\Coolyeah\Project_sawit 2\alat\testing\sawit_sehat\sawit_02.wav,62500,33.300480,0.011562174,1.000000000,0.000288,-62.176707,-62.160877,-58.937244,0,0.000000

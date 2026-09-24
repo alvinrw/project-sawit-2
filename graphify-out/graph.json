@@ -1,0 +1,351 @@
+{
+  "root": "C:\\Users\\alvin\\Documents\\Coolyeah\\Project_sawit 2",
+  "generated_at": "2026-09-24T11:40:42+00:00",
+  "tool": "knowledge-graph/scripts/build_graph.py",
+  "file_count": 43,
+  "overflow": false,
+  "nodes": [
+    {
+      "id": "alat/alternatif.md",
+      "type": "markdown",
+      "size": 15538
+    },
+    {
+      "id": "alat/Buka_Recorder_GUI.bat",
+      "type": "shell",
+      "size": 69
+    },
+    {
+      "id": "alat/gui_recorder.py",
+      "type": "python",
+      "size": 18974
+    },
+    {
+      "id": "alat/kodingan_hardware/RawSawitRecorder/RawSawitRecorder.ino",
+      "type": "other",
+      "size": 6120
+    },
+    {
+      "id": "alat/KONTEKS_OPENCODE.md",
+      "type": "markdown",
+      "size": 10070
+    },
+    {
+      "id": "alat/LAPORAN_AUDIT_SISTEM.md",
+      "type": "markdown",
+      "size": 8047
+    },
+    {
+      "id": "alat/Manual Book Aplikasi Deteksi Kesehatan Sawit (1).pdf",
+      "type": "other",
+      "size": 2365590
+    },
+    {
+      "id": "alat/README.md",
+      "type": "markdown",
+      "size": 9821
+    },
+    {
+      "id": "alat/recorder.py",
+      "type": "python",
+      "size": 7568
+    },
+    {
+      "id": "alat/requirements.txt",
+      "type": "other",
+      "size": 87
+    },
+    {
+      "id": "alat/testing/bandingkan_rekaman.py",
+      "type": "python",
+      "size": 13442
+    },
+    {
+      "id": "alat/testing/Buka_Deteksi_Realtime.bat",
+      "type": "shell",
+      "size": 73
+    },
+    {
+      "id": "alat/testing/deteksi_realtime.py",
+      "type": "python",
+      "size": 152
+    },
+    {
+      "id": "alat/testing/hasil/laporan.txt",
+      "type": "other",
+      "size": 870
+    },
+    {
+      "id": "alat/testing/hasil/laporan_training_ml.txt",
+      "type": "other",
+      "size": 1800
+    },
+    {
+      "id": "alat/testing/hasil/perbandingan_metric.png",
+      "type": "other",
+      "size": 57934
+    },
+    {
+      "id": "alat/testing/hasil/perbandingan_spektrum.png",
+      "type": "other",
+      "size": 289396
+    },
+    {
+      "id": "alat/testing/hasil/ringkasan.csv",
+      "type": "other",
+      "size": 917
+    },
+    {
+      "id": "alat/testing/kosong/.gitkeep",
+      "type": "other",
+      "size": 1
+    },
+    {
+      "id": "alat/testing/kosong/Kosong.wav",
+      "type": "other",
+      "size": 30000044
+    },
+    {
+      "id": "alat/testing/kosong/kosong_02.wav",
+      "type": "other",
+      "size": 8955948
+    },
+    {
+      "id": "alat/testing/kosong/realtim_kosong.wav",
+      "type": "other",
+      "size": 5598764
+    },
+    {
+      "id": "alat/testing/kosong/realtime_kosong.wav",
+      "type": "other",
+      "size": 4706860
+    },
+    {
+      "id": "alat/testing/model.pkl",
+      "type": "other",
+      "size": 1720
+    },
+    {
+      "id": "alat/testing/README.md",
+      "type": "markdown",
+      "size": 4710
+    },
+    {
+      "id": "alat/testing/realtime_detector/__init__.py",
+      "type": "python",
+      "size": 104
+    },
+    {
+      "id": "alat/testing/realtime_detector/__main__.py",
+      "type": "python",
+      "size": 62
+    },
+    {
+      "id": "alat/testing/realtime_detector/config.py",
+      "type": "python",
+      "size": 716
+    },
+    {
+      "id": "alat/testing/realtime_detector/features.py",
+      "type": "python",
+      "size": 7955
+    },
+    {
+      "id": "alat/testing/realtime_detector/gui.py",
+      "type": "python",
+      "size": 16009
+    },
+    {
+      "id": "alat/testing/realtime_detector/ml.py",
+      "type": "python",
+      "size": 3292
+    },
+    {
+      "id": "alat/testing/realtime_detector/protocol.py",
+      "type": "python",
+      "size": 1648
+    },
+    {
+      "id": "alat/testing/realtime_detector/recorder.py",
+      "type": "python",
+      "size": 5235
+    },
+    {
+      "id": "alat/testing/sawit_sehat/.gitkeep",
+      "type": "other",
+      "size": 1
+    },
+    {
+      "id": "alat/testing/sawit_sehat/realtime_ada.wav",
+      "type": "other",
+      "size": 4073004
+    },
+    {
+      "id": "alat/testing/sawit_sehat/realtime_ada1.wav",
+      "type": "other",
+      "size": 4166700
+    },
+    {
+      "id": "alat/testing/sawit_sehat/realtime_ada3.wav",
+      "type": "other",
+      "size": 4197932
+    },
+    {
+      "id": "alat/testing/sawit_sehat/sawit.wav",
+      "type": "other",
+      "size": 30000044
+    },
+    {
+      "id": "alat/testing/sawit_sehat/sawit_02.wav",
+      "type": "other",
+      "size": 4162604
+    },
+    {
+      "id": "alat/testing/test_realtime_detector.py",
+      "type": "python",
+      "size": 3722
+    },
+    {
+      "id": "alat/testing/train_model.py",
+      "type": "python",
+      "size": 7880
+    },
+    {
+      "id": "alat/testing/uji_model.py",
+      "type": "python",
+      "size": 3551
+    },
+    {
+      "id": "Panduan_PalmSonic_AI_12_Minggu.docx",
+      "type": "other",
+      "size": 504750
+    }
+  ],
+  "edges": [
+    {
+      "source": "alat/testing/deteksi_realtime.py",
+      "target": "alat/testing/realtime_detector/gui.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/__init__.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/__main__.py",
+      "target": "alat/testing/realtime_detector/gui.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/features.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/gui.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/gui.py",
+      "target": "alat/testing/realtime_detector/features.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/gui.py",
+      "target": "alat/testing/realtime_detector/ml.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/gui.py",
+      "target": "alat/testing/realtime_detector/recorder.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/ml.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/protocol.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/recorder.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/recorder.py",
+      "target": "alat/testing/realtime_detector/features.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/recorder.py",
+      "target": "alat/testing/realtime_detector/ml.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/realtime_detector/recorder.py",
+      "target": "alat/testing/realtime_detector/protocol.py",
+      "kind": "py-relative-import"
+    },
+    {
+      "source": "alat/testing/test_realtime_detector.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/test_realtime_detector.py",
+      "target": "alat/testing/realtime_detector/features.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/test_realtime_detector.py",
+      "target": "alat/testing/realtime_detector/protocol.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/test_realtime_detector.py",
+      "target": "alat/testing/realtime_detector/ml.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/test_realtime_detector.py",
+      "target": "alat/testing/realtime_detector/gui.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/train_model.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/train_model.py",
+      "target": "alat/testing/realtime_detector/features.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/train_model.py",
+      "target": "alat/testing/realtime_detector/ml.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/uji_model.py",
+      "target": "alat/testing/realtime_detector/config.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/uji_model.py",
+      "target": "alat/testing/realtime_detector/features.py",
+      "kind": "py-import"
+    },
+    {
+      "source": "alat/testing/uji_model.py",
+      "target": "alat/testing/realtime_detector/ml.py",
+      "kind": "py-import"
+    }
+  ]
+}

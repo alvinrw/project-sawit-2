@@ -1,0 +1,30 @@
+LAPORAN TRAINING MODEL
+Waktu           : 2026-09-24T18:39:49
+Model           : kontras-logreg-v1 (kontras 24-26 vs 20-22 kHz + LogisticRegression)
+Sesi            : 4 kosong + 5 tanaman (72 segmen latih, bobot per sesi seimbang)
+
+Validasi LOSO (satu sesi diuji, sisanya latih):
+  [OK ] Kosong.wav               benar 23/23 segmen · prob rata-rata 0.24 · KOSONG -> KOSONG
+  [OK ] kosong_02.wav            benar  7/7  segmen · prob rata-rata 0.01 · KOSONG -> KOSONG
+  [OK ] realtim_kosong.wav       benar  4/4  segmen · prob rata-rata 0.41 · KOSONG -> KOSONG
+  [OK ] realtime_kosong.wav      benar  3/3  segmen · prob rata-rata 0.07 · KOSONG -> KOSONG
+  [OK ] realtime_ada.wav         benar  2/3  segmen · prob rata-rata 0.59 · ADA TANAMAN -> ADA TANAMAN
+  [OK ] realtime_ada1.wav        benar  3/3  segmen · prob rata-rata 0.98 · ADA TANAMAN -> ADA TANAMAN
+  [OK ] realtime_ada3.wav        benar  3/3  segmen · prob rata-rata 1.00 · ADA TANAMAN -> ADA TANAMAN
+  [OK ] sawit.wav                benar 23/23 segmen · prob rata-rata 0.73 · ADA TANAMAN -> ADA TANAMAN
+  [OK ] sawit_02.wav             benar  3/3  segmen · prob rata-rata 1.00 · ADA TANAMAN -> ADA TANAMAN
+
+Akurasi LOSO segmen : 98.6%
+Akurasi LOSO sesi   : 100.0% (9/9 sesi benar)
+Baseline ambang lama : 100.0%
+Akurasi data latih   : 100.0% (bukan bukti generalisasi)
+
+Catatan eksperimen:
+  - Eksperimen MFCC 39-dim + LogisticRegression: LOSO 16,7% segmen / 44,4% sesi — DITOLAK, menghafal gaya rekaman sesi, bukan kelas.
+  - Band absolut (dBFS) ditolak juga: LOSO segmen 27-36% (level bervariasi antar sesi).
+
+File di root testing/ (di luar data latih):
+  (tidak ada file WAV di root testing/)
+
+Catatan: angka LOSO adalah estimasi internal dengan sesi terbatas,
+bukan klaim akurasi lapangan.

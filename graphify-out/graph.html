@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Knowledge Graph</title>
+<style>
+  html,body{margin:0;height:100%;background:#0e1116;color:#d7dce3;
+    font:13px/1.4 "Segoe UI",system-ui,sans-serif;overflow:hidden}
+  #cv{display:block;cursor:grab}
+  #legend{position:fixed;top:10px;right:10px;background:#171c24ee;border:1px solid #2a3240;
+    border-radius:8px;padding:8px 10px;max-width:220px}
+  #legend b{font-size:12px}
+  .lg{display:flex;align-items:center;gap:6px;margin:3px 0;font-size:12px}
+  .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  #stats{position:fixed;left:10px;bottom:10px;background:#171c24ee;border:1px solid #2a3240;
+    border-radius:8px;padding:6px 10px;font-size:12px}
+  #title{position:fixed;left:10px;top:10px;background:#171c24ee;border:1px solid #2a3240;
+    border-radius:8px;padding:6px 10px;font-size:12px;max-width:55vw;overflow:hidden;
+    text-overflow:ellipsis;white-space:nowrap}
+  #tip{position:fixed;pointer-events:none;background:#0b0e13f2;border:1px solid #3a4453;
+    border-radius:6px;padding:5px 8px;font-size:12px;display:none;z-index:9;
+    max-width:340px;word-break:break-all}
+  #help{position:fixed;right:10px;bottom:10px;font-size:11px;color:#8b94a3}
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+<div id="title"></div>
+<div id="legend"><b>Legenda (tipe file)</b><div id="lgbody"></div></div>
+<div id="stats"></div>
+<div id="help">drag node = geser &middot; tarik background = pan &middot; scroll = zoom &middot; hover = sorot tetangga</div>
+<div id="tip"></div>
+<script id="kg" type="application/json">{"root": "C:\\Users\\alvin\\Documents\\Coolyeah\\Project_sawit 2", "generated_at": "2026-09-24T10:49:18+00:00", "tool": "knowledge-graph/scripts/build_graph.py", "file_count": 39, "overflow": false, "nodes": [{"id": "alat/alternatif.md", "type": "markdown", "size": 15538}, {"id": "alat/Buka_Recorder_GUI.bat", "type": "shell", "size": 69}, {"id": "alat/gui_recorder.py", "type": "python", "size": 18974}, {"id": "alat/kodingan_hardware/RawSawitRecorder/RawSawitRecorder.ino", "type": "other", "size": 6120}, {"id": "alat/LAPORAN_AUDIT_SISTEM.md", "type": "markdown", "size": 8047}, {"id": "alat/Manual Book Aplikasi Deteksi Kesehatan Sawit (1).pdf", "type": "other", "size": 2365590}, {"id": "alat/README.md", "type": "markdown", "size": 9821}, {"id": "alat/recorder.py", "type": "python", "size": 7568}, {"id": "alat/requirements.txt", "type": "other", "size": 51}, {"id": "alat/testing/bandingkan_rekaman.py", "type": "python", "size": 13442}, {"id": "alat/testing/Buka_Deteksi_Realtime.bat", "type": "shell", "size": 73}, {"id": "alat/testing/deteksi_realtime.py", "type": "python", "size": 152}, {"id": "alat/testing/hasil/laporan.txt", "type": "other", "size": 870}, {"id": "alat/testing/hasil/perbandingan_metric.png", "type": "other", "size": 57934}, {"id": "alat/testing/hasil/perbandingan_spektrum.png", "type": "other", "size": 289396}, {"id": "alat/testing/hasil/ringkasan.csv", "type": "other", "size": 917}, {"id": "alat/testing/kosong/.gitkeep", "type": "other", "size": 1}, {"id": "alat/testing/kosong/Kosong.wav", "type": "other", "size": 30000044}, {"id": "alat/testing/kosong/kosong_02.wav", "type": "other", "size": 8955948}, {"id": "alat/testing/README.md", "type": "markdown", "size": 4710}, {"id": "alat/testing/realtim_kosong.wav", "type": "other", "size": 5598764}, {"id": "alat/testing/realtime_20260924_174035.wav", "type": "other", "size": 3869228}, {"id": "alat/testing/realtime_20260924_174135.wav", "type": "other", "size": 6533676}, {"id": "alat/testing/realtime_ada.wav", "type": "other", "size": 4073004}, {"id": "alat/testing/realtime_ada1.wav", "type": "other", "size": 4166700}, {"id": "alat/testing/realtime_ada3.wav", "type": "other", "size": 4197932}, {"id": "alat/testing/realtime_detector/__init__.py", "type": "python", "size": 104}, {"id": "alat/testing/realtime_detector/__main__.py", "type": "python", "size": 62}, {"id": "alat/testing/realtime_detector/config.py", "type": "python", "size": 716}, {"id": "alat/testing/realtime_detector/features.py", "type": "python", "size": 7955}, {"id": "alat/testing/realtime_detector/gui.py", "type": "python", "size": 14735}, {"id": "alat/testing/realtime_detector/protocol.py", "type": "python", "size": 1648}, {"id": "alat/testing/realtime_detector/recorder.py", "type": "python", "size": 4975}, {"id": "alat/testing/realtime_kosong.wav", "type": "other", "size": 4706860}, {"id": "alat/testing/sawit_sehat/.gitkeep", "type": "other", "size": 1}, {"id": "alat/testing/sawit_sehat/sawit.wav", "type": "other", "size": 30000044}, {"id": "alat/testing/sawit_sehat/sawit_02.wav", "type": "other", "size": 4162604}, {"id": "alat/testing/test_realtime_detector.py", "type": "python", "size": 2927}, {"id": "Panduan_PalmSonic_AI_12_Minggu.docx", "type": "other", "size": 504750}], "edges": [{"source": "alat/testing/deteksi_realtime.py", "target": "alat/testing/realtime_detector/gui.py", "kind": "py-import"}, {"source": "alat/testing/realtime_detector/__init__.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/__main__.py", "target": "alat/testing/realtime_detector/gui.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/features.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/gui.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/gui.py", "target": "alat/testing/realtime_detector/features.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/gui.py", "target": "alat/testing/realtime_detector/recorder.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/protocol.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/recorder.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/recorder.py", "target": "alat/testing/realtime_detector/features.py", "kind": "py-relative-import"}, {"source": "alat/testing/realtime_detector/recorder.py", "target": "alat/testing/realtime_detector/protocol.py", "kind": "py-relative-import"}, {"source": "alat/testing/test_realtime_detector.py", "target": "alat/testing/realtime_detector/config.py", "kind": "py-import"}, {"source": "alat/testing/test_realtime_detector.py", "target": "alat/testing/realtime_detector/features.py", "kind": "py-import"}, {"source": "alat/testing/test_realtime_detector.py", "target": "alat/testing/realtime_detector/protocol.py", "kind": "py-import"}]}</script>
+<script>
+const G = JSON.parse(document.getElementById('kg').textContent);
+const COLORS = {"python": "#3977d2", "javascript": "#e3c419", "typescript": "#2f7ec4", "markdown": "#7d7d7d", "config": "#b06bc4", "html": "#e05c2b", "css": "#8a4fd1", "c": "#6f8fa8", "cpp": "#6f8fa8", "java": "#e2703a", "matlab": "#c46a2b", "powershell": "#3f7fbf", "shell": "#4f9d5c", "sql": "#c4562b", "other": "#5a6472"};
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+const tip = document.getElementById('tip');
+let W=0,H=0,dpr=1;
+
+// ---- siapkan struktur ----
+const nodes = G.nodes.map((n,i)=>({...n, x:(Math.random()-.5)*600, y:(Math.random()-.5)*400, vx:0, vy:0, deg:0, k:i}));
+const idx = new Map(nodes.map(n=>[n.id,n.k]));
+const edges = [];
+for(const e of G.edges){
+  const a=idx.get(e.source), b=idx.get(e.target);
+  if(a!==undefined && b!==undefined){ edges.push({s:a,t:b,kind:e.kind}); nodes[a].deg++; nodes[b].deg++; }
+}
+const maxDeg = Math.max(1, ...nodes.map(n=>n.deg));
+const radius = n => 4 + 9*Math.sqrt(n.deg/maxDeg) + Math.min(3, Math.log10((n.size||0)+10));
+
+// ---- view transform ----
+let cam={x:0,y:0,k:1};
+function resize(){
+  dpr=window.devicePixelRatio||1;
+  W=innerWidth; H=innerHeight;
+  cv.width=W*dpr; cv.height=H*dpr; cv.style.width=W+'px'; cv.style.height=H+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+}
+addEventListener('resize',resize); resize();
+cam.x=W/2; cam.y=H/2;
+const sx = x=>x*cam.k+cam.x, sy = y=>y*cam.k+cam.y;
+const ux = X=>(X-cam.x)/cam.k,  uy = Y=>(Y-cam.y)/cam.k;
+
+// ---- force simulation ----
+const REP = 2600, SPRING=60, LEN=90, CTR=0.012, DAMP=0.86;
+function tick(){
+  const n=nodes.length;
+  const pairwise = n<=700;                 // >700 node: lompati repulsion all-pair (biar tetap ringan)
+  for(let i=0;i<n;i++){ nodes[i].vx*=DAMP; nodes[i].vy*=DAMP; }
+  if(pairwise){
+    for(let i=0;i<n;i++) for(let j=i+1;j<n;j++){
+      let dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y;
+      let d2=dx*dx+dy*dy; if(d2<1){d2=1;dx=(Math.random()-.5);dy=(Math.random()-.5);}
+      const f=REP/d2, d=Math.sqrt(d2);
+      nodes[i].vx+=dx/d*f; nodes[i].vy+=dy/d*f;
+      nodes[j].vx-=dx/d*f; nodes[j].vy-=dy/d*f;
+    }
+  }
+  for(const e of edges){
+    const a=nodes[e.s], b=nodes[e.t];
+    let dx=b.x-a.x, dy=b.y-a.y, d=Math.hypot(dx,dy)||1;
+    const f=(d-LEN)*SPRING/d;
+    a.vx+=dx/d*f; a.vy+=dy/d*f; b.vx-=dx/d*f; b.vy-=dy/d*f;
+  }
+  for(const p of nodes){ p.vx-=p.x*CTR; p.vy-=p.y*CTR; p.x+=p.vx; p.y+=p.vy; }
+}
+
+// ---- render ----
+let hover=-1;
+function neighbors(k){ const s=new Set([k]); for(const e of edges){ if(e.s===k)s.add(e.t); if(e.t===k)s.add(e.s);} return s; }
+function draw(){
+  ctx.fillStyle='#0e1116'; ctx.fillRect(0,0,W,H);
+  const hl = hover>=0 ? neighbors(hover) : null;
+  const showLabels = cam.k>=1.4;
+  ctx.lineWidth=Math.max(0.6, cam.k*0.7);
+  for(const e of edges){
+    const a=nodes[e.s], b=nodes[e.t];
+    const dim = hl && !(hl.has(e.s)&&hl.has(e.t));
+    ctx.strokeStyle = dim ? 'rgba(60,70,85,.25)' : 'rgba(110,140,190,.65)';
+    ctx.beginPath(); ctx.moveTo(sx(a.x),sy(a.y)); ctx.lineTo(sx(b.x),sy(b.y)); ctx.stroke();
+  }
+  for(const n of nodes){
+    const dim = hl && !hl.has(n.k);
+    ctx.globalAlpha = dim?0.22:1;
+    ctx.fillStyle = COLORS[n.type]||COLORS.other;
+    ctx.beginPath(); ctx.arc(sx(n.x),sy(n.y), Math.max(2, radius(n)*cam.k), 0, 7); ctx.fill();
+    if(!dim && (showLabels || n.deg>=Math.max(3,maxDeg*0.25) || n.k===hover)){
+      ctx.fillStyle='#d7dce3'; ctx.font='11px Segoe UI,sans-serif'; ctx.textAlign='center';
+      ctx.fillText(n.id.split('/').pop(), sx(n.x), sy(n.y)-radius(n)*cam.k-4);
+    }
+  }
+  ctx.globalAlpha=1;
+}
+function loop(){ if(!dragging) tick(); draw(); requestAnimationFrame(loop); }
+
+// ---- interaksi ----
+let mode=null, dragNode=-1, moved=false;
+cv.addEventListener('mousedown',ev=>{
+  const m=find(ux(ev.clientX),uy(ev.clientY));
+  dragNode=m; mode = m>=0?'node':'pan'; moved=false;
+  cv.style.cursor='grabbing';
+});
+function find(x,y){
+  let best=-1,bd=1e9;
+  for(const n of nodes){ const d=Math.hypot(n.x-x,n.y-y), r=radius(n)+4/cam.k;
+    if(d<r && d<bd){bd=d;best=n.k;} }
+  return best;
+}
+let dragging=false;
+addEventListener('mousemove',ev=>{
+  if(mode){
+    moved=true; dragging=true;
+    if(mode==='node'){ const n=nodes[dragNode]; n.x=ux(ev.clientX); n.y=uy(ev.clientY); n.vx=n.vy=0; }
+    else { cam.x+=ev.movementX; cam.y+=ev.movementY; }
+    return;
+  }
+  const m=find(ux(ev.clientX),uy(ev.clientY));
+  if(m!==hover){ hover=m; }
+  if(m>=0){ const n=nodes[m];
+    tip.style.display='block'; tip.style.left=(ev.clientX+14)+'px'; tip.style.top=(ev.clientY+14)+'px';
+    tip.innerHTML='<b>'+n.id+'</b><br>tipe: '+n.type+' &middot; ukuran: '+n.size+' B &middot; degree: '+n.deg;
+    cv.style.cursor='pointer';
+  } else { tip.style.display='none'; cv.style.cursor='grab'; }
+});
+addEventListener('mouseup',()=>{ mode=null; dragging=false; cv.style.cursor='grab'; });
+cv.addEventListener('wheel',ev=>{
+  ev.preventDefault();
+  const f=Math.exp(-ev.deltaY*0.0012), k2=Math.min(6,Math.max(0.12,cam.k*f));
+  const mx=ev.clientX,my=ev.clientY;
+  cam.x = mx-(mx-cam.x)*(k2/cam.k); cam.y = my-(my-cam.y)*(k2/cam.k); cam.k=k2;
+},{passive:false});
+cv.addEventListener('dblclick',ev=>{ const m=find(ux(ev.clientX),uy(ev.clientY));
+  if(m>=0){ cam.k=1.8; cam.x=W/2-nodes[m].x*cam.k; cam.y=H/2-nodes[m].y*cam.k; } });
+
+// ---- legend + stats ----
+document.getElementById('title').textContent = 'Knowledge Graph — ' + G.root + ' (generated ' + G.generated_at + ')';
+const used = [...new Set(nodes.map(n=>n.type))].sort();
+document.getElementById('lgbody').innerHTML = used.map(t =>
+  '<div class="lg"><span class="dot" style="background:'+(COLORS[t]||COLORS.other)+'"></span>'+t+
+  ' ('+nodes.filter(n=>n.type===t).length+')</div>').join('');
+document.getElementById('stats').textContent =
+  nodes.length+' node · '+edges.length+' edge · zoom '+(cam.k*100).toFixed(0)+'%';
+setInterval(()=>{document.getElementById('stats').textContent =
+  nodes.length+' node · '+edges.length+' edge · zoom '+(cam.k*100).toFixed(0)+'%';},300);
+
+loop();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+LAPORAN PERBANDINGAN PILOT
+
+Sample rate       : 62500 Hz
+Rentang analisis  : 20-28 kHz
+Transien diabaikan: 0.1 detik pertama
+File box kosong   : 2
+File sawit sehat  : 2
+
+Energi box kosong : -55.522 dBFS
+Energi sawit sehat: -61.305 dBFS
+Selisih sawit-box : -5.783 dB
+
+Event box kosong  : 0.250 kandidat/menit
+Event sawit sehat : 0.250 kandidat/menit
+
+Interpretasi awal
+-----------------
+Energi 20-28 kHz pada rekaman sawit lebih rendah daripada box kosong. Keberadaan pot/tanaman dapat mengubah akustik box; ulangi pengukuran dan periksa penempatan sensor.
+
+Peringatan
+----------
+Ini hanya membandingkan acoustic box kosong dengan box berisi pot dan sawit sehat.
+Perbedaan dapat berasal dari tanaman, pot, tanah, perubahan pantulan suara, atau noise.
+Hasil ini belum membuktikan kondisi sehat/sakit dan belum boleh dipakai sebagai klaim biologis.
