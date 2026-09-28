@@ -1,0 +1,640 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 740,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "g5h1Co",
+          "x": 10,
+          "y": 10,
+          "name": "Rekam Screen",
+          "width": 780,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "IRkYj",
+              "name": "Title",
+              "fill": "#111111",
+              "content": "Rekam Sawit",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "fORWi",
+              "name": "Subtitle",
+              "fill": "#555555",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Khusus rekaman. Tutup box + diamkan 2 menit. Kontrol ikut sesi: 1=awal, 2=tengah, 3=akhir.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "DUmkw",
+              "name": "Mode Row",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "azylC",
+                  "name": "Mode Data",
+                  "fill": "#111111",
+                  "gap": 6,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L3W8m4",
+                      "name": "Mode Data Label",
+                      "fill": "#FFFFFF",
+                      "content": "● Data",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z71Iy",
+                  "name": "Mode Kontrol",
+                  "fill": "#E9ECEF",
+                  "gap": 6,
+                  "padding": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d6yjnP",
+                      "name": "Mode Kontrol Label",
+                      "fill": "#333333",
+                      "content": "○ Kontrol Sesi",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AhJsB",
+              "name": "Content",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ONwOf",
+                  "name": "Left Col",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LpLHe",
+                      "name": "Jenis Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Qa4aW",
+                          "name": "Jenis Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Jenis",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h1CvU",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "gap": 6,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K5hfhM",
+                              "name": "Value Text",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "air-kekeringan",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NlDYu",
+                              "name": "Caret",
+                              "fill": "#888888",
+                              "content": "▾",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pUwew",
+                      "name": "Plants Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qR7Wq",
+                          "name": "Plants Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Plants",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k8hYp",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "gap": 12,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MNKYu",
+                              "name": "Plant Number",
+                              "fill": "#111111",
+                              "content": "1",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sLR12",
+                      "name": "Hari ke Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PdNdf",
+                          "name": "Hari ke Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Hari ke",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C9JVIa",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "gap": 6,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HAa7G",
+                              "name": "Value Text",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "1",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AfNKw",
+                              "name": "Caret",
+                              "fill": "#888888",
+                              "content": "▾",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ADkue",
+                      "name": "Sesi Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jZQ2H",
+                          "name": "Sesi Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Sesi",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VJ265",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "gap": 28,
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LzHgi",
+                              "name": "Sesi1",
+                              "fill": "#111111",
+                              "content": "● 1",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JiK10",
+                              "name": "Sesi2",
+                              "fill": "#888888",
+                              "content": "○ 2",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V8oh0b",
+                              "name": "Sesi3",
+                              "fill": "#888888",
+                              "content": "○ 3",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oO0Vd",
+                      "name": "Durasi Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YNTnD",
+                          "name": "Durasi Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Durasi",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "V0ynYK",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "gap": 6,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Tieyv",
+                              "name": "Value Text",
+                              "fill": "#111111",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "20 detik",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V7tCZ",
+                              "name": "Caret",
+                              "fill": "#888888",
+                              "content": "▾",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kkTFb",
+                      "name": "Port Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "M6rZWv",
+                          "name": "Port Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Port",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U6dXnA",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "d64DH",
+                              "name": "Value Text",
+                              "fill": "#111111",
+                              "content": "COM15 (auto)",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MgLgg",
+                      "name": "Operator Row",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OaB4X",
+                          "name": "Operator Label",
+                          "fill": "#333333",
+                          "textGrowth": "fixed-width",
+                          "width": 110,
+                          "content": "Operator",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "M3UYcr",
+                          "name": "Value",
+                          "width": "fill_container",
+                          "fill": "#F1F3F5",
+                          "padding": 8,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "IOcyb",
+                              "name": "Value Text",
+                              "fill": "#999999",
+                              "content": "nama...",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wzo7I",
+              "name": "Live Monitor",
+              "width": "fill_container",
+              "fill": "#F1F3F5",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pMiuu",
+                  "name": "Live Title",
+                  "fill": "#111111",
+                  "content": "LIVE",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "efEBn",
+                  "name": "Wave Row",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lhcvd",
+                      "name": "Waveform",
+                      "fill": "#999999",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "··▂▄▆█▆▄▂··▃▅▇█▇▅▃··▂▅▇█▅▂··▄▆█▆▄··",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uhIbo",
+              "name": "Buttons",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xCR8G",
+                  "name": "Rekam Btn",
+                  "width": "fill_container",
+                  "fill": "#111111",
+                  "padding": 12,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "isBvU",
+                      "name": "Rekam Label",
+                      "fill": "#FFFFFF",
+                      "content": "Rekam",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s81urk",
+                  "name": "Stop Btn",
+                  "width": "fill_container",
+                  "fill": "#E9ECEF",
+                  "padding": 12,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j5qhK",
+                      "name": "Stop Label",
+                      "fill": "#555555",
+                      "content": "Berhenti",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YKKQO",
+              "name": "Tools",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Qdp8G",
+                  "name": "Upload Btn",
+                  "width": "fill_container",
+                  "fill": "#DEE2E6",
+                  "padding": 10,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pfhJu",
+                      "name": "Upload Label",
+                      "fill": "#111111",
+                      "content": "Upload firmware",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "riZxO",
+                  "name": "Check Btn",
+                  "width": "fill_container",
+                  "fill": "#E9ECEF",
+                  "padding": 10,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FJ8ML",
+                      "name": "Check Label",
+                      "fill": "#111111",
+                      "content": "Cek alat",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "uY2SU",
+              "name": "Status",
+              "fill": "#147A3E",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Siap. File langsung masuk folder jenisnya.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "06e24241-09b6-4f85-8eef-ea913945ed4d"
+}
